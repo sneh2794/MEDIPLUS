@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MediPlus - Patient Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="d-flex">
+    <!-- Sidebar -->
+    <div class="bg-primary text-white p-4" style="width: 250px; min-height: 100vh;">
+        <h2 class="mb-4">MediPlus</h2>
+        <ul class="nav flex-column">
+            <li class="nav-item"><a href="#" class="nav-link text-white">Dashboard</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white">Appointments</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white">Patients</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white">Reports</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white">Settings</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container-fluid p-4">
+        <!-- Patient Details -->
+        <div class="card p-4 mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-3 text-center">
+                    <img src="image.png" alt="Patient Picture" class="img-fluid rounded">
+                </div>
+                <div class="col-md-9">
+                    <h4>Patient Details</h4>
+                    <p><strong>Name:</strong> John Doe</p>
+                    <p><strong>Age:</strong> 30</p>
+                    <p><strong>Gender:</strong> Female</p>
+                    <p><strong>Contact:</strong> +1234567890</p>
+                    <p><strong>Reason:</strong> Fever</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Medicine Box -->
+        <div class="card p-4">
+            <h4 class="text-center"><span style="font-size: 24px;">℞</span> Medicine Box</h4>
+            <p class="text-center text-muted">Store and access your prescriptions securely.</p>
+            <textarea class="form-control mb-3" placeholder="Write here..." rows="3"></textarea>
+            <div class="text-center">
+                <button class="btn btn-primary">Send Medicine</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Square Video Call Button -->
+<button class="btn btn-primary position-fixed bottom-0 end-0 m-4 shadow-lg" 
+        style="width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;">
+    <i class="fas fa-video fa-lg text-white"></i>
+</button>
+
+</body>
+</html>
